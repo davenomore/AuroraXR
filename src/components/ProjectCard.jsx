@@ -44,7 +44,7 @@ export default function ProjectCard({ title, description, image, tags, demoUrl, 
             <motion.a
                 href={demoUrl}
                 whileHover={{ y: -8 }}
-                className="block bg-black/30 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:border-cyan-500/50 hover:shadow-[0_0_20px_rgba(6,182,212,0.2)] transition-all duration-300 group cursor-pointer overflow-hidden relative"
+                className="block bg-black/50 backdrop-blur-xl border border-white/10 rounded-2xl p-6 hover:border-cyan-500/50 hover:shadow-[0_0_20px_rgba(6,182,212,0.2)] transition-all duration-300 group cursor-pointer overflow-hidden relative"
             >
                 <CardContent />
             </motion.a>
@@ -54,7 +54,7 @@ export default function ProjectCard({ title, description, image, tags, demoUrl, 
     return (
         <motion.div
             whileHover={{ y: -8 }}
-            className="bg-black/30 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:border-cyan-500/50 hover:shadow-[0_0_20px_rgba(6,182,212,0.2)] transition-all duration-300 group overflow-hidden relative"
+            className="bg-black/50 backdrop-blur-xl border border-white/10 rounded-2xl p-6 hover:border-cyan-500/50 hover:shadow-[0_0_20px_rgba(6,182,212,0.2)] transition-all duration-300 group overflow-hidden relative"
         >
             <CardContent />
         </motion.div>
