@@ -10,7 +10,7 @@ export const translations = {
           id: 'synesthetic',
           title: "Synesthetic VR",
           description: "Particle storms and gesture magic in WebXR. A symphony of light and sound controlled by your hands.",
-          image: "/projects/synesthetic.png",
+          image: "/AuroraXR/projects/synesthetic.png",
           tags: ['WebXR', 'Three.js', 'React'],
           demoUrl: 'https://davenomore.github.io/VR_dev_synesthesia'
         },
@@ -18,7 +18,7 @@ export const translations = {
           id: 'aurora',
           title: "Aurora Dimensions",
           description: "Experimental dimensional warping visualizations using GLSL shaders.",
-          image: "/projects/aurora.png",
+          image: "/AuroraXR/projects/aurora.png",
           tags: ['WebGL', 'GLSL', 'Art'],
           status: 'Under Development'
         },
@@ -26,7 +26,7 @@ export const translations = {
           id: 'neural',
           title: "Neural Scapes",
           description: "AI-generated landscapes explorable in virtual reality.",
-          image: "/projects/neural.png",
+          image: "/AuroraXR/projects/neural.png",
           tags: ['AI', 'VR', 'Generation'],
           status: 'Under Development'
         }
@@ -47,7 +47,7 @@ export const translations = {
           id: 'synesthetic',
           title: "Szinesztézia VR",
           description: "Részecskeviharok és gesztusmágia WebXR-ben. A fény és hang szimfóniája, amit a kezeddel irányítasz.",
-          image: "/projects/synesthetic.png",
+          image: "/AuroraXR/projects/synesthetic.png",
           tags: ['WebXR', 'Three.js', 'React'],
           demoUrl: 'https://davenomore.github.io/VR_dev_synesthesia'
         },
@@ -55,7 +55,7 @@ export const translations = {
           id: 'aurora',
           title: "Aurora Dimenziók",
           description: "Kísérleti dimenzió-torzító vizualizációk GLSL shaderekkel.",
-          image: "/projects/aurora.png",
+          image: "/AuroraXR/projects/aurora.png",
           tags: ['WebGL', 'GLSL', 'Művészet'],
           status: 'Fejlesztés alatt'
         },
@@ -63,7 +63,7 @@ export const translations = {
           id: 'neural',
           title: "Neurális Tájak",
           description: "Mesterséges intelligencia által generált tájak, amelyek bejárhatók a virtuális valóságban.",
-          image: "/projects/neural.png",
+          image: "/AuroraXR/projects/neural.png",
           tags: ['AI', 'VR', 'Generálás'],
           status: 'Fejlesztés alatt'
         }
