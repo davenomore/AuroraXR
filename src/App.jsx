@@ -26,6 +26,8 @@ function AppContent() {
               description={project.description}
               image={project.image}
               tags={project.tags}
+              demoUrl={project.demoUrl}
+              status={project.status}
             />
           ))}
         </div>

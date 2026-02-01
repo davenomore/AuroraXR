@@ -11,21 +11,24 @@ export const translations = {
           title: "Synesthetic VR",
           description: "Particle storms and gesture magic in WebXR. A symphony of light and sound controlled by your hands.",
           image: "/projects/synesthetic.png",
-          tags: ['WebXR', 'Three.js', 'React']
+          tags: ['WebXR', 'Three.js', 'React'],
+          demoUrl: 'https://davenomore.github.io/VR_dev_synesthesia'
         },
         {
           id: 'aurora',
           title: "Aurora Dimensions",
           description: "Experimental dimensional warping visualizations using GLSL shaders.",
           image: "/projects/aurora.png",
-          tags: ['WebGL', 'GLSL', 'Art']
+          tags: ['WebGL', 'GLSL', 'Art'],
+          status: 'Under Development'
         },
         {
           id: 'neural',
           title: "Neural Scapes",
           description: "AI-generated landscapes explorable in virtual reality.",
           image: "/projects/neural.png",
-          tags: ['AI', 'VR', 'Generation']
+          tags: ['AI', 'VR', 'Generation'],
+          status: 'Under Development'
         }
       ]
     },
@@ -45,21 +48,24 @@ export const translations = {
           title: "Szinesztézia VR",
           description: "Részecskeviharok és gesztusmágia WebXR-ben. A fény és hang szimfóniája, amit a kezeddel irányítasz.",
           image: "/projects/synesthetic.png",
-          tags: ['WebXR', 'Three.js', 'React']
+          tags: ['WebXR', 'Three.js', 'React'],
+          demoUrl: 'https://davenomore.github.io/VR_dev_synesthesia'
         },
         {
           id: 'aurora',
           title: "Aurora Dimenziók",
           description: "Kísérleti dimenzió-torzító vizualizációk GLSL shaderekkel.",
           image: "/projects/aurora.png",
-          tags: ['WebGL', 'GLSL', 'Művészet']
+          tags: ['WebGL', 'GLSL', 'Művészet'],
+          status: 'Fejlesztés alatt'
         },
         {
           id: 'neural',
           title: "Neurális Tájak",
           description: "Mesterséges intelligencia által generált tájak, amelyek bejárhatók a virtuális valóságban.",
           image: "/projects/neural.png",
-          tags: ['AI', 'VR', 'Generálás']
+          tags: ['AI', 'VR', 'Generálás'],
+          status: 'Fejlesztés alatt'
         }
       ]
     },
