@@ -7,7 +7,7 @@ export default function KofiButton() {
 
     return (
         <motion.a
-            href="https://ko-fi.com"
+            href="https://ko-fi.com/auroraxr"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ scale: 0 }}
