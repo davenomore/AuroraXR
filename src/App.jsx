@@ -2,7 +2,7 @@ import Hero from './components/Hero';
 import ProjectCard from './components/ProjectCard';
 import LanguageSwitcher from './components/LanguageSwitcher';
 import KofiButton from './components/KofiButton';
-import Aurora3D from './components/Aurora3D';
+import NorthlightBackground from './components/NorthlightBackground';
 import { LanguageProvider, useLanguage } from './contexts/LanguageContext';
 
 function AppContent() {
@@ -10,7 +10,7 @@ function AppContent() {
 
   return (
     <div className="min-h-screen text-white font-sans selection:bg-cyan-500 selection:text-black relative">
-      <Aurora3D />
+      <NorthlightBackground />
       <LanguageSwitcher />
       <KofiButton />
       <Hero />
