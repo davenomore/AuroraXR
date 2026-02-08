@@ -37,7 +37,7 @@ float triNoise2d(in vec2 p, float spd)
     p *= mm2(p.x*0.06);
     vec2 bp = p;
     
-    // Loop count: 4 (Optimized for desktop web)
+    // Loop count: 4 (Balanced quality)
     for (float i=0.; i<4.; i++ )
     {
         vec2 dg = tri2(bp*1.85)*.75;
@@ -62,7 +62,7 @@ vec4 aurora(vec3 ro, vec3 rd)
     vec4 col = vec4(0);
     vec4 avgCol = vec4(0);
     
-    // Loop count: 40 (Optimized from 50)
+    // Loop count: 40 (Restored for quality)
     for(float i=0.;i<40.;i++)
     {
         float dist = i;
@@ -125,8 +125,8 @@ void main() {
         aur *= smoothstep(0., 1.5, aur);
         aur *= fade;
         
-        // Stars simplified
-        // col += stars(rd); 
+        // Stars restored
+        col += stars(rd); 
         
         col = col*(1.-aur.a) + aur.rgb;
     }
@@ -149,7 +149,7 @@ void main() {
 
 function SkyDome() {
     const mesh = useRef();
-    
+
     const uniforms = useMemo(() => ({
         time: { value: 0 },
         resolution: { value: new THREE.Vector2(window.innerWidth, window.innerHeight) }
@@ -177,7 +177,7 @@ function SkyDome() {
 export default function NorthlightBackground() {
     return (
         <div className="fixed inset-0 z-0 pointer-events-none bg-black">
-            <Canvas camera={{ position: [0, 0, 0.1], fov: 60 }} gl={{ alpha: false }}>
+            <Canvas camera={{ position: [0, 0, 0.1], fov: 60 }} gl={{ alpha: false }} dpr={[1, 1]}>
                 <SkyDome />
             </Canvas>
         </div>
